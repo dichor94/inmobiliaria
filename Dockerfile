@@ -1,5 +1,4 @@
-FROM php:8.3-apache
-
+FROM httpd
 
 COPY . /var/www/html/inmobiliaria/
 
