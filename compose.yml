@@ -1,0 +1,6 @@
+services:
+  web:
+    image: dichor94/inmobiliaria:v1
+    container_name: inmo_app
+    ports:
+      - "8080:80"
