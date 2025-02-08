@@ -1,4 +1,4 @@
-FROM httpd
+FROM httpd:latest
 
 COPY . /var/www/html/inmobiliaria/
 
