@@ -1,0 +1,129 @@
+html,body{
+
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  background-color: white;
+  
+}
+
+
+
+
+main{
+
+  width: 95%;
+  flex-grow: 1;
+}
+
+.optionNav{
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+
+
+
+}
+
+.titleFooter{
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+
+
+}
+
+.inmuebles{
+
+  opacity: 0.5;
+  height: 230px; 
+  width: 400px;
+
+}
+
+.inmuebles:hover{
+
+  opacity: 1;
+
+
+}
+
+.iconos{
+
+  height: 35px;
+  width: 35px;
+
+
+
+}
+
+
+/*Hacer la foto un poco más grande cuando paso el ratón*/
+
+.empleados{
+
+  transition: transform 0.5s cubic-bezier(0.4, 0.0, 0.2, 1); /*He encontrado por la web este efecto para que no sea tan tosco*/
+  width: 900px;
+  height: auto;
+
+}
+
+.empleados:hover{
+
+  transform: scale(1.2);
+
+
+}
+
+
+.local{
+
+  width: 700px;
+  height: 450px; 
+
+}
+
+.idiomass{
+
+  height: 35px;
+  width: 35px;
+
+}
+
+
+.containerForm{
+
+  width: 550px;
+
+
+
+}
+
+
+.fotosHome{
+
+  width: auto;
+  height: 200px;
+
+
+
+}
+
+
+.redeSociales{
+
+  width: 40px;
+  height: 40px;
+
+
+}
+
+
+footer{
+
+  margin-left: 5px;
+  margin-right: 12px;
+
+
+}
