@@ -1,9 +1,9 @@
 FROM httpd:latest
 
-COPY . /var/www/html/inmobiliaria/
+COPY . /usr/local/apache2/htdocs/
 
-RUN chown -R www-data:www-data /var/www/html/
-RUN chmod -R 755 /var/www/html/
+RUN chown -R www-data:www-data /usr/local/apache2/htdocs/
+RUN chmod -R 755 /usr/local/apache2/htdocs/
 
 EXPOSE 80
 
